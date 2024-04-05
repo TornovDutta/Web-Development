@@ -1,0 +1,15 @@
+/* color property */
+.class{
+    color:aqua;
+    background-color: rgb(12, 12, 13);
+}
+
+/*text property*/
+#id{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2px;
+    text-transform: capitalize;
+}
