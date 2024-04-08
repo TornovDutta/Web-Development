@@ -1,0 +1,22 @@
+#box{
+    width: 50%;
+    /* 50% means 50 oercentage of present tag */
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+div{
+    background-color: yellowgreen;
+    width: 100px;
+}
+#box1{
+    background-color: blueviolet;
+    font-size: .5em;
+    /* 1em means 1x present tag size */
+}
+
+#box2{
+    background-color:chocolate;
+    font-size: 1rem;
+    /* 1rem means 1x root element */
+}

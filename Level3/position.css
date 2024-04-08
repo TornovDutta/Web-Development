@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: blue;
+}
+#box1{
+    position:static;
+}
+#box2{
+    position:relative;
+}
+#box3{
+    position:absolute;
+}
+#box4{
+    position:fixed;
+}
+#box5{
+    position:sticky;
+}
