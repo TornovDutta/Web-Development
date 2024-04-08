@@ -1,0 +1,14 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
+@media (min-width: 200px) and (max-width: 300px) {
+    div {
+        background-color: black;
+    }
+}
