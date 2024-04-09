@@ -1,0 +1,27 @@
+*{
+    margin:0%;
+    padding: 0%;
+    text-align: center;
+}
+
+div{
+    background-color: aqua;
+    height:100px;
+    width: 100px;
+    display: inline-block;
+    transition: all 2s ease-in-out 1s;
+
+}
+
+div:hover{
+    background-color: yellowgreen;
+    color:blue
+}
+div:active{
+    background-color: blueviolet;
+    color: white;
+}
+div:focus{
+    background-color: black;
+    color: wheat;
+}
