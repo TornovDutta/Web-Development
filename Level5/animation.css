@@ -1,0 +1,29 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top:200px;
+    left:100px;
+    
+}
+    
+
+div:hover{
+    animation: colorchange 10s linear 1s infinite alternate;
+}
+    
+@keyframes colorchange{
+    0%{background-color: aqua;
+    left:100px;}
+    50%{background-color: blue;
+    left:450px}
+    100%{background-color: blueviolet;
+    left:1000px;}
+}
