@@ -1,0 +1,74 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(232, 170, 26,0.5);
+}
+
+.contain {
+    background-color: antiquewhite;
+    height: 300px;
+    width: 500px;
+    border: 2px solid antiquewhite;
+    border-radius: 5%;
+    box-shadow: 10px 10px 8px #888888;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 50px;
+    left: 375px;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.contain:hover {
+    transform: scale(1.25);
+}
+
+#text {
+    left: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+#text:hover {
+    color: black;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+p:hover {
+    color: black;
+}
+
+#ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(earth.webp);
+    background-size:cover ;
+    animation-name: rotation;
+    animation-duration: 6s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    position: absolute; 
+    bottom: -10px; 
+    right: -10px; 
+    transform-origin: center; 
+}
+
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg); 
+        
+    }
+    to {
+        transform: rotate(360deg); 
+        
+    }
+}
